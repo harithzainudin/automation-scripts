@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "lib": ["ESNext"],
+    "lib": ["ESNext", "DOM"],
     "strict": true,
     "noImplicitAny": true,
     "noUnusedParameters": true,
@@ -13,7 +13,9 @@
     "isolatedModules": true,
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node",
-    "baseUrl": "./"
+    "baseUrl": "./",
+    "resolveJsonModule": true
+
     // "paths": {
     //   "src/*": ["src/*"]
     // }
